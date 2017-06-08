@@ -2,4 +2,7 @@
 # -*- coding: utf-8 -*-
 
 data = list(range(101));
-print(data)
+sum = 0
+for num in data:
+	sum = sum+num
+print(sum)	
